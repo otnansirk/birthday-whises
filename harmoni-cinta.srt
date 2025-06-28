@@ -1,25 +1,25 @@
 1
-00:00:14,333 --> 00:00:17,200
-disenja itu kita bertemu
+00:00:14,333 --> 00:00:17,900
+senja itu kita bertemu
 
 2
-00:00:21,066 --> 00:00:23,366
+00:00:21,066 --> 00:00:23,800
 didepan ruangan musik
 
 3
-00:00:23,066 --> 00:00:27,366
+00:00:23,900 --> 00:00:25,366
 yang syahdu
 
 4
-00:00:27,566 --> 00:00:30,333
+00:00:27,566 --> 00:00:30,833
 hatiku bergetar
 
 5
-00:00:30,866 --> 00:00:33,066
+00:00:31,233 --> 00:00:34,600
 pandang mu memikat
 
 6
-00:00:33,766 --> 00:00:36,700
+00:00:34,833 --> 00:00:36,300
 Riana
 
 7
@@ -27,118 +27,166 @@ Riana
 kau yang tak terlupakan
 
 8
-00:00:41,333 --> 00:00:44,166
+00:00:41,333 --> 00:00:44,566
 aku mencintaimu Rianaku
 
 9
-00:00:44,833 --> 00:00:47,966
-dalam setiap hembusan nafasku
+00:00:44,833 --> 00:00:46,800
+dalam setiap hembusan
 
 10
-00:00:48,333 --> 00:00:52,166
-kau adalah lagu yang ku dendangkan
+00:00:46,866 --> 00:00:48,166
+nafasku
 
-1
-00:00:52,900 --> 00:00:57,366
-hingga kini kau  jadi istriku sayang
+11
+00:00:48,333 --> 00:00:49,900
+kau adalah lagu
 
 12
+00:00:49,966 --> 00:00:52,166
+yang ku dendangkan
+
+13
+00:00:52,900 --> 00:00:54,666
+hingga kini kau jadi
+
+14
+00:00:54,733 --> 00:00:57,366
+istriku sayang
+
+15
 00:01:03,766 --> 00:01:07,600
 kita berjalan bersama waktu
 
-13
-00:01:10,800 --> 00:01:12,600
+16
+00:01:10,800 --> 00:01:11,833
 melewati
 
-14
-00:01:12,133 --> 00:01:15,266
+17
+00:01:12,033 --> 00:01:15,266
 suka duka yang ada
 
-15
+18
 00:01:17,266 --> 00:01:20,566
 setiap nada dan irama
 
-16
-00:01:20,966 --> 00:01:27,133
-mengukir cinta yang abadi selamanya
+19
+00:01:20,966 --> 00:01:23,933
+mengukir cinta yang abadi
 
-17
+20
+00:01:24,033 --> 00:01:27,133
+selamanya
+
+21
 00:01:27,533 --> 00:01:30,900
 aku mencintaimu Rianaku
 
-18
+22
 00:01:31,033 --> 00:01:34,166
 dalam setiap hembusan nafasku
 
-19
-00:01:34,533 --> 00:01:38,366
-kau adalah lagu yang ku dendangkan
+23
+00:01:34,533 --> 00:01:36,733
+kau adalah lagu yang ku
 
-20
-00:01:39,100 --> 00:01:43,566
-hingga kini kau  jadi istriku sayang
+24
+00:01:36,933 --> 00:01:38,366
+dendangkan
 
-21
+25
+00:01:39,100 --> 00:01:41,066
+hingga kini kau jadi
+
+26
+00:01:41,200 --> 00:01:43,566
+istriku sayang
+
+27
 00:01:48,633 --> 00:01:51,466
 kini aku takbisa tanpamu
 
-22
-00:01:56,833 --> 00:02:01,433
-kau hadirkan bahagia di hidupku
+28
+00:01:56,833 --> 00:01:59,766
+kau hadirkan bahagia
 
-23
-00:02:03,533 --> 00:02:08,133
-Riana kau yang selalu ku nanti
+29
+00:01:59,900 --> 00:02:01,433
+di hidupku
 
-24
+30
+00:02:03,533 --> 00:02:06,666
+Riana kau yang selalu
+
+31
+00:02:06,833 --> 00:02:08,133
+ku nanti
+
+32
 00:02:08,366 --> 00:02:12,966
 kita selamanya dalam harmoni
 
-25
-00:02:13,833 --> 00:02:17,200
-aku mencintaimu Rianaku
+33
+00:02:13,833 --> 00:02:15,600
+aku mencintaimu
 
-26
+34
+00:02:15,733 --> 00:02:17,200
+Rianaku
+
+35
 00:02:17,333 --> 00:02:20,466
 dalam setiap hembusan nafasku
 
-27
-00:02:20,833 --> 00:02:24,666
-kau adalah lagu yang ku dendangkan
+36
+00:02:20,833 --> 00:02:22,933
+kau adalah lagu yang ku
 
-28
-00:02:25,400 --> 00:02:29,866
-hingga kini kau  jadi istriku sayang
+37
+00:02:23,066 --> 00:02:24,666
+dendangkan
 
-29
-00:02:30,033 --> 00:02:33,400
-kini aku takbisa tanpamu
+38
+00:02:25,400 --> 00:02:27,200
+hingga kini kau jadi
 
-30
-00:02:33,533 --> 00:02:36,666
+39
+00:02:27,400 --> 00:02:29,866
+istriku sayang
+
+40
+00:02:30,033 --> 00:02:31,400
+kini aku
+
+41
+00:02:31,500 --> 00:02:33,300
+takbisa tanpamu
+
+42
+00:02:33,400 --> 00:02:36,666
 kau hadirkan bahagia dihidupku
 
-31
+43
 00:02:37,033 --> 00:02:40,300
 Riana kau yang selalu ku nanti
 
-32
+44
 00:02:40,466 --> 00:02:44,366
 kita selamanya dalam harmoni
 
-33
+45
 00:02:44,966 --> 00:02:46,766
 wo u woo
 
-34
+46
 00:02:48,033 --> 00:02:51,133
 selamanya kau di hati
 
-35
+47
 00:02:52,100 --> 00:02:52,900
 Riana
 
-36
+48
 00:02:53,866 --> 00:02:56,500
 aku mencintaimu
 
