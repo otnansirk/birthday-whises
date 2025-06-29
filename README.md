@@ -193,8 +193,11 @@ This project is created for personal use and romantic gestures. Feel free to mod
 ## 💝 Credits
 
 - **Design**: Custom romantic birthday theme
-- **Animations**: Original SVG and CSS animations
-- **Music**: Personal audio file (replace with your own)
+- **AI Coding**: Cursor editor
+- **Cake Animation**: TCW - AI & Coding Resources 🚀👨‍💻
+- **Text Animations**: CSS animations
+- **Music**: Suno: Personal audio file (replace with your own)
+- **Lyric**: Capcut
 - **Images**: Unsplash stock photos (replace with personal photos)
 
 ---
