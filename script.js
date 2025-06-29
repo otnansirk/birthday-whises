@@ -1,12 +1,12 @@
 // JavaScript to create a confetti effect
-document.addEventListener('DOMContentLoaded', () => {
+function createConfettiElements() {
     const confettiContainer = document.getElementById('confetti-container');
     const confettiCount = 100;
     const colors = ['#EC4899', '#F472B6', '#F9A8D4', '#FBCFE8', '#FFD700']; // Pinks and a touch of gold
 
     function createConfetti() {
         const confetti = document.createElement('div');
-        confetti.classList.add('confetti');
+        confetti.classList.add('confetti', 'confetti-paused');
         const color = colors[Math.floor(Math.random() * colors.length)];
         confetti.style.setProperty('--color', color);
         confetti.style.left = Math.random() * 100 + 'vw';
@@ -17,7 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // When animation ends, respawn at the top
         confetti.addEventListener('animationend', () => {
             confetti.remove();
-            confettiContainer.appendChild(createConfetti());
+            const newConfetti = createConfetti();
+            if (!confettiContainer.classList.contains('paused')) {
+                newConfetti.classList.remove('confetti-paused');
+            }
+            confettiContainer.appendChild(newConfetti);
         });
         return confetti;
     }
@@ -25,6 +29,17 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < confettiCount; i++) {
         confettiContainer.appendChild(createConfetti());
     }
+}
+
+function startConfetti() {
+    const confettiContainer = document.getElementById('confetti-container');
+    confettiContainer.classList.remove('paused');
+    document.querySelectorAll('.confetti').forEach(el => el.classList.remove('confetti-paused'));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    createConfettiElements();
+    document.getElementById('confetti-container').classList.add('paused');
 });
 
 // Floating Lyrics System
@@ -249,8 +264,10 @@ function showSpecificLyric(text) {
 }
 
 function playCakeAnimation() {
-  const anim = document.getElementById('bizcocho_1');
-  if (anim) anim.beginElement();
+  setTimeout(() => {
+    const anim = document.getElementById('bizcocho_1');
+    if (anim) anim.beginElement();
+  }, 500);
 }
 
 function startSurprise() {
@@ -278,7 +295,24 @@ function startSurprise() {
     }, 100);
   }
 
+  // Show the cake (remove hide class if present)
+  const cake = document.querySelector('.cake');
+  if (cake) {
+    cake.style.display = '';
+    cake.classList.remove('cake-hide', 'cake-hide-animated');
+  }
+
+  // Show lyrics
+  const lyricsContainer = document.getElementById('lyrics-container');
+  lyricsContainer.classList.remove('lyrics-hide');
+
+  // Reset confetti state
+  const confettiContainer = document.getElementById('confetti-container');
+  confettiContainer.classList.remove('confetti-finish');
+  confettiContainer.classList.remove('paused');
+
   const audio = document.getElementById('birthday-audio');
+  audio.currentTime = 0;
   audio.play();
   playCakeAnimation();
 
@@ -293,16 +327,9 @@ function startSurprise() {
       cremaAnim.removeEventListener('endEvent', handler);
     });
   }
+
+  // Start confetti after everything else
+  startConfetti();
+
+  // No song end handler needed for looping
 }
-
-// Scroll listener for lyrics positioning
-window.addEventListener('scroll', () => {
-  const lyricsContainer = document.getElementById('lyrics-container');
-  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-  if (scrollTop > 0) {
-    lyricsContainer.style.transform = `translateY(${Math.min(scrollTop, 100)}px)`;
-  } else {
-    lyricsContainer.style.transform = 'translateY(0px)';
-  }
-});
