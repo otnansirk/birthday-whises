@@ -60,7 +60,7 @@ A beautiful, interactive birthday surprise web application featuring an animated
 
 1. **Clone or Download** the project files:
    ```bash
-   git clone <repository-url>
+   git clone <your-repository-url-after-fork-this-project>
    # or download the ZIP file
    ```
 
